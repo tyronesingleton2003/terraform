@@ -37,6 +37,7 @@
                 content = var.content # Use the content of the variable
                 count = length(var.users) # Loop through the list based on the length
                 }
+                
         - The 'for_each' keyword can be used for creating multiple objects. 
             - Only works with a set or map
             - toset(var.filename)/filename = each.value --- parameters used prevent unwanted deletions
