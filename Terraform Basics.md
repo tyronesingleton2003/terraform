@@ -39,6 +39,7 @@
                 tuple - different, but exact
                 any
             description - gives description of variable
+            
         Not having a default for the variable will cause terraform to prompt for input
         Using the '-var' on the command line will allow for inline variables
         Variables can be exported using the "TF_VAR_" prefix
