@@ -1,4 +1,5 @@
-Types of IAC Tools
+
+Types of IAC Tools:
      Configuration management:
           - Uses:
                Designed to Install and Manage Software
@@ -30,25 +31,21 @@ Types of IAC Tools
                Terraform
                CloudFormation
 
-     Why Terraform
+     Why Terraform:
      - Terraform is Cloud Agnostic, as it supports different cloud platforms through its "providers". 
        This gives Terraform an advantage over other IAC Tools.
 
-     - Terraform Features
+     - Terraform Features:
           Uses HasiCorp Configuration Language
           Has Providers for all Cloud Platforms
           Uses the '.tf' extension for identification
 
-     - Terraform Stages 
+     - Terraform Stages:
           Init - Initializes project and identifies providers to be used for the target environment
           Plan - Develops plan to Get to destired project state
           Apply - Makes changes on the target environment to bring it to the desired state
 
      - Every Object that Terraform Manages is called a "resource".
-     
      - Terraform "state" is a blueprint of the infrastructure deployed by Terraform (.tfstate)
      - Terraform can import resources created outside of its resources, bringing it under its control and    
        allowing it to be managed.
-
-          
-
