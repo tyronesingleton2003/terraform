@@ -1,6 +1,6 @@
 
-Types of IAC Tools:
-     Configuration management:
+     Types of IAC Tools:
+          Configuration management:
           - Uses:
                Designed to Install and Manage Software
                Maintains Standard Structure
@@ -12,7 +12,7 @@ Types of IAC Tools:
                Chef
                SaltStack
 
-     Server Templating Tools
+          Server Templating Tools
           - Uses:
                Pre Installed Software and Dependencies
                Virtual Machine or Docker Images
@@ -22,7 +22,7 @@ Types of IAC Tools:
                Packer
                Vagrant
 
-     Provisioning Tools:
+          Provisioning Tools:
           - Uses
                Deploy immutable Infrastructure resources
                Servers, Databases, Network Components
