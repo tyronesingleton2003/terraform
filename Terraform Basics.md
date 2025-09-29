@@ -56,7 +56,7 @@
         - Terraform allows output from a resource block using the 'output' keyword.
         - The parameters for the output block are "value" and "description"
         - The output is viewed using 'terraform output'.
-        - Best use if for input to share output on screen or input for another IAC tool
+        - Best use is for input to share output on screen or input for another IAC tool
 
 
 
