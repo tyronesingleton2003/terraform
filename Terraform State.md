@@ -4,3 +4,6 @@
         - Terraform state file is the single source of truth.
         - Allows tracking of drift between current state and resource config files
         - Should have state file in remote location when collaborating with a team.
+        - terraform play --refresh=false disbles refreshing the terraform state
+        - It is refreshed when the 'plan' and 'apply' options are exeercise, but not with 'init'.
+        
