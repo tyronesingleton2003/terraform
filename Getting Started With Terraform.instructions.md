@@ -13,3 +13,5 @@ Resources
         provider - provider of the resource type
         resource - type of resource to be managed
         name - name of the resource to be managed
+
+Terraform uses an immutable methodology.  Instead of making updates to an object, it will destroy and recreate the object.
